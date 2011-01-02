@@ -1,0 +1,12 @@
+
+uktne-utils 0.0.1 (alpha)
+-----------------------------------
+Date: 2011-01-01
+
+- Initial alpha code and example
+  files for showing and downloading
+  new data version.
+- Includes debug code.
+- Uses MIT license.
+
+-----------------------------------

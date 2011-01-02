@@ -1,0 +1,22 @@
+
+The data source for this project is the nine column CSV
+file that is output by the code that can be found at
+http://code.google.com/p/ofcom-csverter/. That project
+automatcially corrects errors found in Ofcom's data.
+
+The uktne-utils project utilises some code from the
+parsecsv-for-php project. That project can be found at
+http://code.google.com/p/parsecsv-for-php/. That file is
+used to import the CSV data into two arrays. Please see
+that project for CSV-parsing code updates.
+
+The uktne-utils project takes the data found in those two
+arrays and it then builds the dataset in two new arrays
+but using only three columns. The latest version of the
+uktne-utils.lib.php file can be found at
+http://github.com/g1smd/uktne-utils.
+
+The new data can then be saved to a brand new CSV file
+by using the parsecsv-for-php code for a second time.
+The output is very similar to that shown in the file at
+https://github.com/aubergene/UK-Telephone-Number-Extractor/blob/master/areas.csv.
