@@ -2,13 +2,13 @@
 The data source for this project is the nine column CSV
 file that is output by the code that can be found at
 http://code.google.com/p/ofcom-csverter/. That project
-automatcially corrects errors found in Ofcom's data.
+automatically corrects errors found in Ofcom's data.
 
 The uktne-utils project utilises some code from the
 parsecsv-for-php project. That project can be found at
-http://code.google.com/p/parsecsv-for-php/. That file is
-used to import the CSV data into two arrays. Please see
-that project for CSV-parsing code updates.
+http://code.google.com/p/parsecsv-for-php/. Please see
+that project for CSV-parsing code updates. That file is
+used to import the CSV data into two arrays.
 
 The uktne-utils project takes the data found in those two
 arrays and it then builds the dataset in two new arrays

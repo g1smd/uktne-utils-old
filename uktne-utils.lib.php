@@ -1,11 +1,11 @@
 <?php
 
-class uktne-utils
+class UKtneUtils
 {
 
 /*
 
-	Class: uktne-utils v0.0.1
+	Class: UKtneUtils v0.1.1
 	http://github.com/g1smd/uktne-utils
 
 
@@ -100,12 +100,12 @@ class uktne-utils
 
 
 	/**
-	 * Constructor uktne-utils
+	 * Constructor UKtneUtils
 	 * @param  titlesn  array  parsed column titles
 	 * @param  datan    array  parsed data
 	 * @return nothing
 	 */
-	function uktne-utils($titlesn = null, $datan = null)
+	function UKtneUtils($titlesn = null, $datan = null)
 	{
 		if ( $titlesn !== null ) $this->titlesn = $titlesn;
 		if ( $datan !== null ) $this->datan = $datan;

@@ -1,4 +1,14 @@
 
+uktne-utils 0.1.1 (beta)
+-----------------------------------
+Date: 2011-01-02
+
+- Change class name to remove the
+  non-valid hyphen.
+
+-----------------------------------
+
+
 uktne-utils 0.0.1 (alpha)
 -----------------------------------
 Date: 2011-01-01

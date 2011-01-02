@@ -11,12 +11,12 @@
   $csv->auto('example-data/_sabc-new.csv');
 
 
-# include uktne-utils class.
+# include UKtneUtils class.
   require_once('uktne-utils.lib.php');
 
-# create new uktne-utils object.
+# create new UKtneUtils object.
 # Parse data and reformat...
-  $csvnew = new uktne-utils($csv->titles, $csv->data);
+  $csvnew = new UKtneUtils($csv->titles, $csv->data);
 
 ?>
 </pre>
