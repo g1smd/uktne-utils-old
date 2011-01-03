@@ -5,7 +5,7 @@ class UKtneUtils
 
 /*
 
-	Class: UKtneUtils v0.1.1
+	Class: UKtneUtils v0.2.1
 	http://github.com/g1smd/uktne-utils
 
 
@@ -175,7 +175,6 @@ class UKtneUtils
 					$this->newcodeprev = ($this->datanew[$keynew-1]["Code"]);
 					$this->newlocationprev = ($this->datanew[$keynew-1]["Location"]);
 
-// $this->debug($key); // uncomment to show variables
 
 					# Process area code only if it is not 'unassigned' and not 'expansion'...
 					if (($this->isNationalDialling == false) && ($this->isExpansion == false))
@@ -201,23 +200,5 @@ class UKtneUtils
 			}
 		}
 	}
-
-	function debug($key){
-	print "\n \n ~".$this->datan[$key]["Code Length"]."~";
-	print "\n area code length ... " . $this->areacodelength;
-	print "\n combined length ... " . $this->combinedlength;
-	print "\n local length ... " . $this->localpartlength;
-	print "\n this area code ... " . $this->newcode;
-	print "\n this local part ... " . $this->newlocal;
-	print "\n this location ... " . $this->newlocation;
-	print "\n this status ... " . $this->isNoStatus;
-	print "\n isNationalDialling ... " . $this->isNationalDialling;
-	print "\n isExpansion ... " . $this->isExpansion;
-	print "\n isMixed ... " . $this->isMixed;
-	print "\n isELNS ... " . $this->isELNS;
-	print "\n code (prev) ... " . $this->newcodeprev;
-	print "\n location (prev) ... " . $this->newlocationprev;
-	}
-
 }
 ?>

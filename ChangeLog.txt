@@ -1,4 +1,14 @@
 
+uktne-utils 0.2.1 (beta)
+-----------------------------------
+Date: 2011-01-03
+
+- Removed all debug code.
+- Revised _sabc-new.csv example file.
+
+-----------------------------------
+
+
 uktne-utils 0.1.1 (beta)
 -----------------------------------
 Date: 2011-01-02
